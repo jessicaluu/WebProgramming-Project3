@@ -1,0 +1,372 @@
+* {
+	font-family: "Oswald", "Open Sans", 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#title {
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.everything {
+    width: 1400px; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.info {
+    float: left;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-left: 150px; 
+    border-radius: 10px; 
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.congratulations {
+    float: right;
+    margin-top: 80px;
+    background-color: white;
+    border-radius: 10px; 
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-right: 70px;
+    padding: 30px;
+    width: 300px;
+}
+
+#pokemon {
+    padding: 10px; 
+    width: 220px;
+}
+
+h1 {
+	text-shadow: 1px 1px 5px #3B4CCA,
+        0 0 25px #3B4CCA,
+        0 0 5px #3B4CCA;
+	font-size: 35px;
+    line-height: 0;
+    letter-spacing: 3px; 
+	text-align: center;
+    color: white;
+	/*color: #3B4CCA;*/
+}
+
+h2 {
+    text-shadow: 1px 1px 5px red,
+        0 0 25px red,
+        0 0 5px red;
+    color: white;
+    font-size: 30px;
+}
+
+.content {
+    margin: 0 auto; 
+    padding: 30px; 
+	width: 400px;
+    min-width: 400px;
+}
+
+ul {
+	font-size: 14pt;
+	font-weight: bold;
+	line-height: 30px;
+	color: blue;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+}
+
+.empty {
+	opacity: 0.9;
+}
+
+table #puzzleTable {
+	border-collapse: collapse;
+    width: 400px;
+	float: left;
+}
+
+table {
+    background-color: white;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#button-container {
+    text-align: center;
+}
+
+/* ----- REGULAR POKE BALL BACKGROUND ----- */
+#puzzleTable .poke01 {
+    background:url("pokeball/poke1.jpg") no-repeat;
+}
+#puzzleTable .poke02 {
+	background:url("pokeball/poke2.jpg") no-repeat;
+}
+#puzzleTable .poke03 {
+	background:url("pokeball/poke3.jpg") no-repeat;
+}
+#puzzleTable .poke04 {
+	background:url("pokeball/poke4.jpg") no-repeat;
+}
+#puzzleTable .poke05 {
+	background:url("pokeball/poke5.jpg") no-repeat;
+}
+#puzzleTable .poke06 {
+	background:url("pokeball/poke6.jpg") no-repeat;
+}
+#puzzleTable .poke07 {
+	background:url("pokeball/poke7.jpg") no-repeat;
+}
+#puzzleTable .poke08 {
+	background:url("pokeball/poke8.jpg") no-repeat;
+}
+#puzzleTable .poke09 {
+	background:url("pokeball/poke9.jpg") no-repeat;
+}
+#puzzleTable .poke10 {
+	background:url("pokeball/poke10.jpg") no-repeat;
+}
+#puzzleTable .poke11 {
+	background:url("pokeball/poke11.jpg") no-repeat;
+}
+#puzzleTable .poke12 {
+	background:url("pokeball/poke12.jpg") no-repeat;
+}
+#puzzleTable .poke13 {
+	background:url("pokeball/poke13.jpg") no-repeat;
+}
+#puzzleTable .poke14 {
+	background:url("pokeball/poke14.jpg") no-repeat;
+}
+#puzzleTable .poke15 {
+	background:url("pokeball/poke15.jpg") no-repeat;
+}
+
+/* ----- REGULAR GREAT BALL BACKGROUND ----- */
+#puzzleTable .great01{
+	background:url("greatball/great1.jpg") no-repeat;
+}
+#puzzleTable .great02{
+	background:url("greatball/great2.jpg") no-repeat;
+}
+#puzzleTable .great03{
+	background:url("greatball/great3.jpg") no-repeat;
+}
+#puzzleTable .great04 {
+	background:url("greatball/great4.jpg") no-repeat;
+}
+#puzzleTable .great05 {
+	background:url("greatball/great5.jpg") no-repeat;
+}
+#puzzleTable .great06 {
+	background:url("greatball/great6.jpg") no-repeat;
+}
+#puzzleTable .great07 {
+	background:url("greatball/great7.jpg") no-repeat;
+}
+#puzzleTable .great08 {
+	background:url("greatball/great8.jpg") no-repeat;
+}
+#puzzleTable .great09 {
+	background:url("greatball/great9.jpg") no-repeat;
+}
+#puzzleTable .great10 {
+	background:url("greatball/great10.jpg") no-repeat;
+}
+#puzzleTable .great11 {
+	background:url("greatball/great11.jpg") no-repeat;
+}
+#puzzleTable .great12 {
+	background:url("greatball/great12.jpg") no-repeat;
+}
+#puzzleTable .great13 {
+	background:url("greatball/great13.jpg") no-repeat;
+}
+#puzzleTable .great14 {
+	background:url("greatball/great14.jpg") no-repeat;
+}
+#puzzleTable .great15 {
+	background:url("greatball/great15.jpg") no-repeat;
+}
+
+/* ----- REGULAR ULTRA BALL BACKGROUND ----- */
+#puzzleTable .ultra01 {
+	background:url("ultraball/ultra1.jpg") no-repeat;
+}
+#puzzleTable .ultra02 {
+	background:url("ultraball/ultra2.jpg") no-repeat;
+}
+#puzzleTable .ultra03 {
+	background:url("ultraball/ultra3.jpg") no-repeat;
+}
+#puzzleTable .ultra04 {
+	background:url("ultraball/ultra4.jpg") no-repeat;
+}
+#puzzleTable .ultra05 {
+	background:url("ultraball/ultra5.jpg") no-repeat;
+}
+#puzzleTable .ultra06 {
+	background:url("ultraball/ultra6.jpg") no-repeat;
+}
+#puzzleTable .ultra07 {
+	background:url("ultraball/ultra7.jpg") no-repeat;
+}
+#puzzleTable .ultra08 {
+	background:url("ultraball/ultra8.jpg") no-repeat;
+}
+#puzzleTable .ultra09 {
+	background:url("ultraball/ultra9.jpg") no-repeat;
+}
+#puzzleTable .ultra10 {
+	background:url("ultraball/ultra10.jpg") no-repeat;
+}
+#puzzleTable .ultra11 {
+	background:url("ultraball/ultra11.jpg") no-repeat;
+}
+#puzzleTable .ultra12 {
+	background:url("ultraball/ultra12.jpg") no-repeat;
+}
+#puzzleTable .ultra13 {
+	background:url("ultraball/ultra13.jpg") no-repeat;
+}
+#puzzleTable .ultra14 {
+	background:url("ultraball/ultra14.jpg") no-repeat;
+}
+#puzzleTable .ultra15 {
+	background:url("ultraball/ultra15.jpg") no-repeat;
+}
+
+/* ----- REGULAR MASTER BALL BACKGROUND ----- */
+#puzzleTable .master01 {
+	background:url("masterball/master1.jpg") no-repeat;
+}
+#puzzleTable .master02 {
+	background:url("masterball/master2.jpg") no-repeat;
+}
+#puzzleTable .master03 {
+	background:url("masterball/master3.jpg") no-repeat;
+}
+#puzzleTable .master04 {
+	background:url("masterball/master4.jpg") no-repeat;
+}
+#puzzleTable .master05 {
+	background:url("masterball/master5.jpg") no-repeat;
+}
+#puzzleTable .master06 {
+	background:url("masterball/master6.jpg") no-repeat;
+}
+#puzzleTable .master07 {
+	background:url("masterball/master7.jpg") no-repeat;
+}
+#puzzleTable .master08 {
+	background:url("masterball/master8.jpg") no-repeat;
+}
+#puzzleTable .master09 {
+	background:url("masterball/master9.jpg") no-repeat;
+}
+#puzzleTable .master10 {
+	background:url("masterball/master10.jpg") no-repeat;
+}
+#puzzleTable .master11 {
+	background:url("masterball/master11.jpg") no-repeat;
+}
+#puzzleTable .master12 {
+	background:url("masterball/master12.jpg") no-repeat;
+}
+#puzzleTable .master13 {
+	background:url("masterball/master13.jpg") no-repeat;
+}
+#puzzleTable .master14 {
+	background:url("masterball/master14.jpg") no-repeat;
+}
+#puzzleTable .master15 {
+	background:url("masterball/master15.jpg") no-repeat;
+}
+
+#puzzleTable td {
+    width: 100px;
+	height: 100px;
+	padding: 0px;
+	margin: 0px;
+	background: #FFFFFF;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	font-family: sans-serif;
+	border: 2px solid #000000;
+    -webkit-transition: -webkit-transform .5s linear;
+    transition: transform .5s linear;
+}
+
+#puzzleTable td:hover {
+   -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+    border: 2px solid #FF0000;
+    color: #FFDE00;
+}
+
+button {
+    font-weight: bold;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px; 
+    width: 110px; 
+    height: 35px;
+    font-size: 13px; 
+    background-color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.9);
+    letter-spacing: 1px;
+}
+
+button:hover {
+    border-collapse: collapse;
+    border-radius: 5px; 
+    height: 35px;
+    font-size: 13px; 
+    color: #FFFFFF;
+    background-color: #FF0000;
+    background: rgba(255, 0, 0, 0.95);
+    letter-spacing: 1px;
+}
+
+.common{
+	background: url(bg/common.jpg) no-repeat;
+    background-size: 100%;
+    background-color: #ff941a;
+    background-attachment: fixed;
+    background-position: left bottom;
+}
+
+.rare{
+	background: url(bg/rare.jpg) no-repeat;
+    background-size: 100%;
+    background-color: #000000; 
+    background-position: right bottom; 
+    background-attachment: fixed;
+}
+
+.epic{
+	background:url(bg/epic.jpg) no-repeat;
+    background-color: #e0ebe9;
+	background-size: 500px; 
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+
+.legendary{
+	background:url(bg/legendary.jpg) no-repeat;
+    background-size: 100%;
+    background-color: #313131;
+	background-position: right bottom;
+    background-attachment: fixed;
+}
