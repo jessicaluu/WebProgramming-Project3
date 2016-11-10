@@ -65,6 +65,9 @@ function clickCell(obj) {
     if(movable==true) {
         // if the cells are movable, swap the 2 cells
         // also, count the number of moves by increasing each swap by 1
+	if (moves == 0) {
+		start();
+	}
         moves++;
         document.getElementById("moves").innerHTML= moves;
 					
@@ -168,7 +171,7 @@ function shuffle_common(){
     document.getElementById("shufflebtn").innerHTML = "SHUFFLE";
     randomCommon();
     
-    start();
+    //start();
     moves = 0;
     var table = document.getElementById("puzzleTable");
 	
@@ -222,7 +225,7 @@ function shuffle_rare(){
     document.getElementById("shufflebtn").innerHTML = "SHUFFLE";
     randomRare();
     
-    start();
+    //start();
     moves = 0;
     var table = document.getElementById("puzzleTable");
 	
@@ -277,7 +280,7 @@ function shuffle_epic(){
     document.getElementById("shufflebtn").innerHTML = "SHUFFLE";
     randomEpic();
     
-    start();
+    //start();
     moves = 0;
     var table = document.getElementById("puzzleTable");
 	
@@ -332,7 +335,7 @@ function shuffle_legendary(){
     document.getElementById("shufflebtn").innerHTML = "SHUFFLE";
     randomLegendary();
     
-    start();
+    //start();
     moves = 0;
     var table = document.getElementById("puzzleTable");
 	
